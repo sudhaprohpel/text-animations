@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #123;
+    height: 100vh;
+    width: 100vw;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 5vw;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+}
+
+.text-container {
+    height: 10%;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-container > * {
+    display: none;
+}
+
+.text-container > .active {
+    display: block;
+}
